@@ -168,3 +168,6 @@ nt main() {
 					system("pause"); 
 					system("cls"); 
 				}
+				else
+					cout << "data tidak ditemukan" << endl;
+				break;
