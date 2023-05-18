@@ -151,3 +151,11 @@ nt main() {
 				system("pause"); 
 				system("cls"); 
 				break;
+			case 2:
+				if (lisEmpty()) 
+				{
+					cout << "List Kosong" << endl;  
+					system("pause"); 
+					system("cls"); 
+					break;
+				}
