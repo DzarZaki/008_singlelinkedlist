@@ -105,3 +105,11 @@ void traverse() {
 		}
 	}
 }
+
+void searchData() {
+	if (lisEmpty()) {
+		cout << "list Kosong" << endl;
+		system("pause");
+		system("cls");
+		return;
+	}
