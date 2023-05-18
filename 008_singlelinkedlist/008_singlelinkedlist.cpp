@@ -130,7 +130,7 @@ void searchData() {
 	}
 }
 
-nt main() {
+int main() {
 	int pilihan;
 	do
 	{
@@ -179,3 +179,8 @@ nt main() {
 				break;
 			case 5:
 				break;
+			default:
+				cout << "pilihan tidak ada" << endl; 
+				break;
+			}
+		}
