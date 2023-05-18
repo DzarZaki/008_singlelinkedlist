@@ -90,3 +90,10 @@ bool lisEmpty() {
 
 }
 
+void traverse() {
+	if (lisEmpty()) {
+		cout << "list Kosong" << endl;
+		system("pause");
+		system("cls");
+		return;
+	}
