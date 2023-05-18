@@ -113,3 +113,8 @@ void searchData() {
 		system("cls");
 		return;
 	}
+	else {
+		int nim; 
+		cout << "Masukkan NIM: "; 
+		cin >> nim; 
+		Node* currentNode = START;  
